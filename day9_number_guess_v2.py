@@ -26,6 +26,7 @@ def play_game():
     elif guess > secret:
             print("Too high! Try again.")
     else:
-            print("🎉 Correct! You guessed it in", attempts, "attempts.")
+            print("Correct! You guessed it in", attempts, "attempts.")
             break
+
 play_game()
