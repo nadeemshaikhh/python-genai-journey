@@ -28,7 +28,7 @@ def decide_winner(user, computer):
       return "You lose!"
     
 def main():
-  print("🎮 Rock Paper Scissors Game")
+  print("Rock Paper Scissors Game")
   while True:
     user = get_user_choice()
     if user == "quit":
@@ -41,4 +41,5 @@ def main():
     result = decide_winner(user, computer)
     print(result)
     print("------------------")
+
 main()
