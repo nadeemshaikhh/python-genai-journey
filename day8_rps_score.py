@@ -31,7 +31,7 @@ def main():
     user_score = 0
     computer_score = 0
 
-    print("🎮 Rock Paper Scissors Game with Score")
+    print("Rock Paper Scissors Game with Score")
 
     while True:
         user = get_user_choice()
@@ -61,3 +61,4 @@ def main():
         print("----------------------------")
 
 main()
+
